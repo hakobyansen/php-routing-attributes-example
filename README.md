@@ -1,4 +1,4 @@
-This is an example app for [DEV article]().
+This is an example app for [DEV article](https://dev.to/hakobyansen/routing-implementation-using-php-attributes-n1l).
 
 
 Create `.env` file in the root of the project with following single variable:
