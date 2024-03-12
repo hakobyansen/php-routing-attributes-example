@@ -14,7 +14,7 @@ class RouterHandler
     {
         self::register();
 
-        $uri = strtolower($_SERVER['REDIRECT_URL']);
+        $uri = isset($_SERVER['REDIRECT_URL']) ? strtolower($_SERVER['REDIRECT_URL']) : '/';
         $method = strtolower($_SERVER['REQUEST_METHOD']);
 
         $executableRoute = null;
